@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Churras", "Churras", "{2FEC5C9A-F625-4E62-B792-081D3D17A8CA}"
+	ProjectSection(SolutionItems) = preProject
+		Comportamento.txt = Comportamento.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kernel", "Kernel", "{D7435A44-B231-4269-A26E-46F56304FFB8}"
 EndProject

@@ -1,0 +1,5 @@
+- Não pode ter dois eventos na mesma data
+- Quem cria o evento é o dono da casa
+- Os Colegas precisam confirmar a presença
+- Os colegas precisam informar quem vão levar
+- Quando criar o Evento, enviar E-mails aos colegas
