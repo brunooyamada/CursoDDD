@@ -4,6 +4,11 @@ using System.Reflection;
 
 namespace Kernel.Domain.Model.ValueObjects
 {
+    public abstract class ValueObject : IValueObject
+    {
+        public ValueObject Clone() => (ValueObject)MemberwiseClone();
+    }
+
     // Classe escrita por Jimmy Bogard
     // http://grabbagoft.blogspot.com.br/2007/06/generic-value-object-equality.html
     public abstract class ValueObject<T> : IEquatable<T> where T : ValueObject<T>
